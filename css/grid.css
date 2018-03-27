@@ -1,0 +1,62 @@
+ section{
+	width:80%;
+	margin: auto;
+}
+
+ .row {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ }
+
+.column{
+	flex: 1;
+	padding: 0 10px;
+}
+
+@media (max-width: 500px) {
+  .column {
+    flex: 0 0 100%;
+  }
+}
+
+/* why is this not working?
+I was trying to make 12 column grid based on this-
+https://codepen.io/triss90/pen/eZWagq
+
+.column .col-1of2{
+	flex: 0 0 50%;
+}
+
+.column .col-1of3{
+	flex: 0 0 33.3333%;
+}
+
+.column .col-1of4{
+	flex: 0 0 25%;
+}
+
+.column .col-5of12{
+	flex: 0 0 41.6666%;
+}
+
+.column .col-7of12{
+	flex: 0 0 58.3333%;
+}
+
+.column .col-8of12{
+	flex: 0 0 66.66666%;
+}
+
+.column .col-9of12{
+	flex: 0 0 75%;
+}
+
+.column .col-10of12{
+	flex: 0 0 83.333%;
+}
+
+.column .col-11of12{
+	flex: 0 0 91.6666%;
+}
+
+

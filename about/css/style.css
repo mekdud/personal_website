@@ -1,0 +1,70 @@
+
+body{
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+.wrapper{
+	border: 1px solid #979797;
+	height: 150px;
+	margin-bottom: 20px;
+
+}
+
+h1.home{
+}
+
+a.about{
+	color:#333;
+}
+
+
+img{
+}
+
+label.container{
+    border-radius: 0px;
+}
+
+span.filter{
+	font-family: 'Overpass Mono', serif;
+	padding: 0px 25px;
+	font-weight: 700;
+
+}
+
+span.checkmark{
+	padding: 0px 25px 0px 10px;
+}
+
+
+ul{
+}
+
+
+div.filter{
+	padding: 20px 0px;
+	margin: 0px 10px 20px 10px;
+	border: 1px solid #979797;
+}
+
+div.work-box{
+	padding: 20px;
+}
+
+div.thumbnail-email{
+}
+
+
+
+
+/* Float fix */
+.clearfix::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
